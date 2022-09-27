@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="toggel">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="https://www.freeiconspng.com/thumbs/youtube-logo-png/youtube-logo-png-transparent-image-5.png" alt="" id="logo">
+        <div id="search-box">
+    <input type="text" id="query" placeholder="Search">
+    <button id="user-search"  onclick="search()" >
+        <img src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-21.png" alt="">
+    </button>
+    
+</div>
+<div id="options">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1EE6NRGpaz_dMaYIJ2l8bTISy8qq0CXtS2w&usqp=CAU" alt="" id="icon">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTodiKASa80He6txDIYkSN9PxoenYG0wZ-DrQ&usqp=CAU" alt="" id="icon">
+    <img src="https://flyclipart.com/thumb2/nav-btn-notification-notification-icon-with-png-and-vector-format-89437.png" alt="" id="icon">
+    <div id="user-photo">
+        <img src="https://lh3.googleusercontent.com/a-/AOh14GjlwPQLcEr9_UleCVb_N3QFdOsoVl6rVT5FT5ODzw=s360-p-rw-no" alt="">
+    </div>
+</div>
+</nav>
+
+  <div id="box">
+    <button onclick="filter()" id="sort">Sort</button>
+ <div id="results"></div>
+</div>
+</body>
+</html>
+<script src="index.js"></script>
