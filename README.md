@@ -8,3 +8,6 @@
 ## Player Page
 
 ![player page](https://user-images.githubusercontent.com/101393406/192563604-9bbc2a16-58d7-4c39-be30-e29ef9ac621d.png)
+
+## see demo 
+https://youtube-clone-kundan.netlify.app/
